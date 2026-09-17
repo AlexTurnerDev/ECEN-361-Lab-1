@@ -31,15 +31,15 @@ When completed answer the following questions. Add your answers by editing this 
 
 ### Part 1: Questions (5pts)
 
-1. Platform used (PC/Mac/Linux)?
+1. Platform used (PC/Mac/Linux)? PC windows
 
-2. Version of STM32CubeIDE installed?
+2. Version of STM32CubeIDE installed? 1.18.1
 
-3. What GPIO Pin is tied to the LED on the board?
+3. What GPIO Pin is tied to the LED on the board? PA5
 
-4. At what frequency did your light toggle?
+4. At what frequency did your light toggle? 0.5Hz
 
-5. What does the “bug” button do?
+5. What does the “bug” button do? builds the project, uploads/flashes the firmware to the board, and starts a Debug session.
 
 ![](media/c20a679cbe3a6587283cfc92269d3bfb.png)
 
@@ -78,18 +78,21 @@ Steps:
 
 ### Part 2: Questions (5pts)
 
-1. What does button 1 (S1) do?
+1. What does button 1 (S1) do? Control whether the 7 seg display counts up or down
 
-2. What does button 2 (S2) do?
+2. What does button 2 (S2) do? Toggles on and off LED 1 no the shield
 
-3. What does button 3 (S3) do?
+3. What does button 3 (S3) do? Nothing there is only a break statement.
 
-4. What variable would you change to make the first number shown on the 7-segment digits be ‘1234’?
+4. What variable would you change to make the first number shown on the 7-segment digits be ‘1234’? Seven_Seg_Count initialized to 1234 instead of 9900.
 
-5. What pin on the chip is tied to the potentiometer?
+5. What pin on the chip is tied to the potentiometer? PA0
 
 ## Ideas for Credit to get to 'A' & Extra-Credit (2 pts for any)
 
-* In addition to the changing digits, there is a serial output terminal stream that is reporting status abut every second or so.  Connect a terminal emulator to this stream (Windows: 'PuTTY' or 'Tera Term', Mac: 'screen') and paste a line from its output.
+* In addition to the changing digits, there is a serial output terminal stream that is reporting status abut every second or so.  Connect a terminal emulator to this stream (Windows: 'PuTTY' or 'Tera Term', Mac: 'screen') and paste a line from its output. 
 
-* What does the potentiometer do in the program?
+Current Tick:  248325    :   Raw Pot Value: 3097   Delay between number update: 756
+
+
+* What does the potentiometer do in the program? Controls the speed of the 7 seg display.
